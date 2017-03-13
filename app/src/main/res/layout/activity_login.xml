@@ -1,0 +1,120 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/navy_blue_light"
+    android:orientation="vertical"
+    tools:context="com.app.weightalysis.oneui.activities.SplashActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navy_blue_light"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/img_login_small" />
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@string/font_family_regular"
+            android:text="WeightAlysis"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/appTagLine"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@string/font_family_thin"
+            android:text="The app for your Daily, Weekly and Monthly Weight records."
+            android:textAlignment="center"
+            android:textColor="@color/gray"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <!--<ImageView-->
+        <!--android:id="@+id/imageView"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:adjustViewBounds="true"-->
+        <!--android:src="@drawable/img_splash_3"-->
+        <!--android:scaleType="centerCrop"-->
+        <!--android:layout_marginTop="10dp"/>-->
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="335dp"
+            android:layout_marginTop="5dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop">
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="157dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_splash_small_1"
+                android:scaleType="centerCrop"
+                android:layout_marginLeft="10dp"/>
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="150dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_splash_small_2"
+                android:scaleType="centerCrop"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_splash_small_4"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="165dp"
+                android:layout_gravity="end"
+                android:layout_marginRight="10dp"/>
+
+            <ImageView
+                android:layout_width="165dp"
+                android:layout_height="165dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/img_splash_small_3"
+                android:scaleType="centerCrop"
+                android:layout_marginTop="165dp"
+                android:layout_marginLeft="10dp"
+                android:id="@+id/imageView2" />
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@string/font_family_thin"
+        android:gravity="center_vertical"
+        android:text="Google Sign-in"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:textColor="@color/bright_yellow"
+        android:background="@color/black"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

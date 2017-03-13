@@ -1,0 +1,16 @@
+[
+  {
+    "employee": [
+      {
+        "name": "Aakash Singh",
+        "age": 29,
+        "salary": 125000
+      },
+      {
+        "name": "Ankit Tyagi",
+        "age": 25,
+        "salary": 52000
+      }
+    ]
+  }
+]

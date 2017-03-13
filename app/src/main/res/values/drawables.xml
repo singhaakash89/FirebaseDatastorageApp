@@ -1,0 +1,8 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <item name="ic_diary" type="drawable">@drawable/ic_diary</item>
+    <item name="ic_graph" type="drawable">@drawable/ic_graph_new</item>
+    <item name="ic_graph_week" type="drawable">@drawable/ic_graph_week</item>
+    <item name="ic_graph_month" type="drawable">@drawable/ic_graph_month</item>
+    <item name="ic_all_filter" type="drawable">@drawable/ic_all_filter</item>
+    <item name="ic_add" type="drawable">@drawable/ic_add</item>
+</resources>
